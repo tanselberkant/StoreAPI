@@ -3,6 +3,7 @@ const connectDB = require('./db/connect');
 const productsRouter = require('./routes/productsRoute');
 const notFoundMiddleware = require('./middlewares/not-found');
 const errorHandlerMiddleaware = require('./middlewares/error-handler');
+require('express-async-errors');
 
 const app = express();
 const port = process.env.PORT || 3000;
