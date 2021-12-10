@@ -1,0 +1,30 @@
+{
+  "name": "storeapi",
+  "version": "1.0.0",
+  "description": "StoreAPI",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanselberkant/StoreAPI.git"
+  },
+  "author": "tanselberkant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanselberkant/StoreAPI/issues"
+  },
+  "homepage": "https://github.com/tanselberkant/StoreAPI#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
