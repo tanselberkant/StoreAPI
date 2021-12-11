@@ -5,6 +5,7 @@ I worked on basic user friendly API setup on this repo
 <h2>Usage </h5>
 
 <h5>Getting All Products </h5>
+
 ```http
 GET /api/products
 ```
@@ -77,6 +78,7 @@ GET /api/products?fields=name,price,company
 ```
 
 <h6>Response</h6>
+
 ```Javascript
 {
     "products": [
